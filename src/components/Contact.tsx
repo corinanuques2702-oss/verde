@@ -143,7 +143,7 @@ const Contact = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/59898409482?text=Hola! Quiero hacer un pedido de Verde Sabroso"
+                href="https://wa.me/593989572810?text=Hola%20que%20tal%2C%20me%20gustar%C3%ADa%20pedir%20algo%20de%20Verde%20Sabroso"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2"
@@ -153,7 +153,7 @@ const Contact = () => {
               </a>
               
               <a
-                href="tel:+59898409482"
+                href="tel:+593989572810"
                 className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2"
               >
                 <Phone className="w-5 h-5" />

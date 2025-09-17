@@ -98,10 +98,41 @@ const Contact = () => {
           ))}
         </div>
 
-        {/* Map or Call to Action */}
+        {/* Google Maps */}
         <div className={`transform transition-all duration-700 delay-800 ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
+          <div className="bg-white rounded-2xl p-8 shadow-xl max-w-6xl mx-auto mb-8">
+            <h3 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+              Nuestra Ubicación
+            </h3>
+            <div className="relative overflow-hidden rounded-xl shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0123456789!2d-79.8987654321!3d-2.1234567890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwMDcnMjQuNCJTIDc5wrA1Myc1NS41Ilc!5e0!3m2!1ses!2sec!4v1234567890123!5m2!1ses!2sec"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-96 rounded-xl"
+                title="Ubicación Verde Sabroso"
+              ></iframe>
+            </div>
+            <div className="mt-6 text-center">
+              <a
+                href="https://maps.app.goo.gl/ZCX44VkscGi77geh7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+              >
+                <MapPin className="w-5 h-5" />
+                Ver en Google Maps
+              </a>
+            </div>
+          </div>
+
+          {/* Call to Action */}
           <div className="bg-white rounded-2xl p-8 shadow-xl max-w-4xl mx-auto text-center">
             <h3 className="text-3xl font-bold text-gray-800 mb-4">
               ¿Listo para disfrutar?
